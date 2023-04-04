@@ -1,0 +1,125 @@
+body{
+    background-color:  hsl(0, 0%, 94%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-component{
+    text-align: center;
+    height: 200;
+    height: 120px;
+    background-color: hsl(0, 0%, 100%);
+    width: 450px;
+   
+    /* margin-top: 100px;
+    margin-left: 150px; */
+   /* border-bottom-left-radius: 30px; */
+   display: flex;
+   max-width: inherit;
+   max-width: 400px;
+    /* border-radius: 9px; */
+    width: 450px;
+   
+}
+
+.day{
+    margin-left: 30px;
+}
+
+.day , .Month , .years{
+    text-align: initial;
+}
+
+h4{
+    margin-bottom: 3px;
+   color:  hsl(0, 1%, 44%);
+   font-size: small;
+  
+}
+
+.input-day , .input-month , .input-year{
+    width: 60px;
+    height: 35px;
+
+    margin-right: 20px;
+
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 0px;
+    font-size: 22px ;
+    /* border-color: black; */
+    /* border-radius: 3px; */
+}
+
+.input-day , .input-month , .input-year :active{
+  /* border-color: hsl(259, 100%, 65%); */
+  box-shadow: hsl(259, 100%, 65%)
+}
+
+
+
+
+.input-day  {
+
+  border-color:hsl(259, 100%, 65%) ;
+}
+
+.input-month:hover {
+  
+    border-color:hsl(259, 100%, 65%) ;
+  }
+
+  .input-year:hover {
+
+    border-color:hsl(259, 100%, 65%) ;
+  }
+
+
+  .main-div{
+    width: 450px;
+    height: 650px;
+    background-color: hsl(0, 0%, 100%);
+    display: block;
+    width: 600px;
+    height: 550px;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom-right-radius: 150px;
+
+    box-shadow: 2px -1px black;
+  }
+
+  h1{
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+  
+
+  .year-holder , .month-holder , .days-holder{
+    color: hsl(259, 100%, 65%);
+    font-size: 80px;
+  }
+
+  .main-btn{
+    border-radius: 30px;
+    border: 0;
+    background-color: black;
+    position: relative;
+    left: 400px;
+  }
+
+  .error-msg-day ,.error-msg-month , .error-msg-year {
+    margin-top: 0px;
+    font-size: 8px;
+    font-weight: 400;
+    color: red;
+    display: none;
+}
+  
+hr{
+  width: 450px;
+  margin-right: 150px;
+  margin-top: 0px;
+}
